@@ -1,12 +1,12 @@
-# Graph Algorithms Project
+# Graph Algorithms Project- Developed by **Ben Shalev**  
+
 
 This project implements core graph algorithms in C++ without using the STL. It includes a console-based interface to interact with a graph, and unit tests using the Doctest framework.
 
----
 
-## 📁 Project Structure
+##  Project Structure
 
-```
+
 .
 ├── algorithms.cpp      # Implementation of graph algorithms
 ├── algorithms.hpp      # Declarations of graph algorithms
@@ -17,23 +17,9 @@ This project implements core graph algorithms in C++ without using the STL. It i
 ├── test_doctest.cpp    # Unit tests using Doctest
 ├── doctest.h           # Doctest header
 ├── Makefile            # Compilation script
-```
 
----
 
-## 🛠️ Build Instructions
-
-Ensure you have a C++ compiler installed. To compile the project:
-
-```bash
-make
-```
-
-This will create the `main` executable.
-
----
-
-## ▶️ Run Instructions
+## Run Instructions
 
 To start the interactive graph menu:
 
@@ -45,7 +31,7 @@ You will be prompted to enter the number of vertices and select operations from 
 
 ---
 
-## 🧪 Run Tests
+##  Run Tests
 
 To compile and run the tests:
 
@@ -56,7 +42,7 @@ g++ test_doctest.cpp graph.cpp algorithms.cpp -o tests
 
 ---
 
-## 🧹 Memory Check with Valgrind
+## Memory Check with Valgrind
 
 Make sure Valgrind is installed:
 
@@ -80,7 +66,7 @@ You should see `All heap blocks were freed -- no leaks are possible` if everythi
 
 ---
 
-## ✅ Features
+## Features
 
 - Add and remove edges (undirected graph)
 - Graph traversal using BFS and DFS
@@ -90,15 +76,4 @@ You should see `All heap blocks were freed -- no leaks are possible` if everythi
 - Manual data structures (queue, union-find) instead of STL
 - Input validation and informative error messages
 
----
 
-## 👤 Author
-
-Developed by **Ben Shalev**  
-Code includes self-implemented graph logic and test coverage.
-
----
-
-## 📄 License
-
-Educational and open-source use permitted.
